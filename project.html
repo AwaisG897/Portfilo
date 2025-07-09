@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Projects</title>
+  <link rel="stylesheet" href="project.css" />
+</head>
+<style>
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.project {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.project h2 {
+  margin-top: 0;
+  color: black;
+}
+
+.project p {
+  margin: 0.5rem 0 1rem;
+  line-height: 1.6;
+}
+
+.project a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+  /* background-color: rgba(34, 33, 33, 0.1); */
+  background: #333;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;  
+  background: #120d0d;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 1rem;
+  }
+}
+/* === MOBILE STYLES ONLY (max-width: 767px) === */
+@media (max-width: 767px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    line-height: 1.6;
+  }
+
+  header {
+    text-align: center;
+    padding: 20px 10px;
+  }
+
+  header h1 {
+    font-size: 26px;
+  }
+
+  main {
+    padding: 0 10px;
+  }
+
+  .project {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+
+  .project h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .project p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .project a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .project a:hover{
+    background-color: #949191;
+color: white;
+  }
+
+  footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #333;
+  }
+
+  footer a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+
+
+</style>
+<body>
+  <header>
+    <h1>My Projects</h1>
+  </header>
+
+  <main>
+    <div class="project">
+      <h2>Weather App</h2>
+      <p>
+        A weather forecasting app using JavaScript and a weather API. Shows
+        real-time temperature, humidity, and icons.
+      </p>
+      <a href="https://github.com/yourusername/weather-app" target="_blank" rel="noopener noreferrer">View Code</a>
+      <a href="xyz.com" onclick="showMessage(event)">Visit
+        Site</a>
+    </div>
+
+
+    <div class="project">
+      <h2>Portfolio Website</h2>
+      <p>
+        A responsive personal portfolio built with HTML, CSS, and a touch of
+        JavaScript for smooth scrolling.
+      </p>
+      <a href="https://github.com/gohar-niazi/Personal-Portfolio-Web.git" target="_blank" rel="noopener noreferrer">View
+        Code</a>
+    </div>
+
+    <div class="project">
+      <h2>Tic Tac Toe Game</h2>
+      <p>
+        Play the classic Tic Tac Toe game developed using HTML, CSS, and
+        vanilla JavaScript, featuring interactive gameplay and responsive
+        design.
+      </p>
+      <a href="https://github.com/gohar-niazi/Rock-Paper-Scissors-Game-.git" target="_blank"
+        rel="noopener noreferrer">View Code</a>
+      <a href="https://gohar-niazi.github.io/Tic-Tac-Game-/" target="_blank" rel="noopener noreferrer">Visit Site</a>
+    </div>
+    <div class="project">
+      <h2>Rock, Paper, Scissors Game</h2>
+      <p>
+        A fun and interactive Rock, Paper, Scissors game built with HTML, CSS,
+        and vanilla JavaScript, featuring real-time player vs. computer logic
+        and smooth animations
+      </p>
+      <a href="https://github.com/gohar-niazi/Rock-Paper-Scissors-Game-.git" target="_blank"
+        rel="noopener noreferrer">View Code</a>
+      <a href="https://gohar-niazi.github.io/Rock-Paper-Scissors-Game-/" target="_blank" rel="noopener noreferrer">Visit
+        Site</a>
+    </div>
+    <div class="project">
+      <h2>Amazon Frontend Clone
+      </h2>
+      <p>
+        A responsive and visually accurate frontend replica of Amazon's homepage built using HTML, CSS
+        showcasing layout skills, design precision, and UI responsiveness.
+      </p>
+      <a href="https://github.com/gohar-niazi/Amazon-Frontend.git" target="_blank" rel="noopener noreferrer">View
+        Code</a>
+      <a href="https://gohar-niazi.github.io/Amazon-Frontend/" target="_blank" rel="noopener noreferrer">Visit
+        Site</a>
+    </div>
+
+  </main>
+
+  <footer>
+    <a href="portfilo.html" onclick="window.close()">← Back to Home</a>
+  </footer>
+  <script>
+    function showMessage(event) {
+      event.preventDefault(); // prevent the link from navigating
+      alert(
+        "I'm currently working on this project. Updates coming soon, InshAllah."
+      );
+    }
+  </script>
+</body>
+
+</html>

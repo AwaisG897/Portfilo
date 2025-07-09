@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio - Services</title>
+  <style>
+   body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+.container{
+display: flex;
+/* background-color: blueviolet; */
+background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content:flex-end;
+    /* height: 1000px; */
+    width: 100vw;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin-top: 10px;
+    /* background-color: aquamarine; */
+}
+.navbar li{
+    list-style: none;
+    display: flex;
+    padding: 2px 5px;
+    /* justify-content: center; */
+
+}
+.navbar li a{
+    text-decoration: none;
+    padding:  3px 20px;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    display: block;
+    border-radius: 50px;
+}
+.navbar li a:hover{
+   background-color: white;
+    color:black;
+}
+.left{font-size: 2rem;
+margin-top: 1rem;
+margin-left: 3rem;
+color: white;
+font-weight: bold;
+}
+.left span{
+    color: rgb(239, 239, 11);
+}
+
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  /* margin-top: 10px; */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+main {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.section {
+  background: #fff;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.section h2 {
+  color:black;
+  margin-top: 0;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skill {
+  background-color: rgb(249, 223, 223);
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  color: black;
+  box-shadow: 0 2px 6px rgba(11, 8, 8, 0.05);
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #333;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .skills {
+    flex-direction: column;
+  }
+}
+/* === MOBILE STYLES ONLY (max-width: 767px) === */
+@media (max-width: 767px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+  }
+
+  header {
+    text-align: center;
+    padding: 20px 10px;
+  }
+
+  header h1 {
+    font-size: 26px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .section h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .skill {
+    background-color: rgb(249, 223, 223);
+    color: black;
+    padding: 10px 15px;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+  }
+}
+
+  </style>
+</head>
+<body>
+    <!-- <div class="container">
+        <div class="left">Port<span>folio</span></div>
+        <div class="navbar">
+          <li><a href="portfilo.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </div>
+      </div> -->
+  <header>
+    <nav>
+          <h1>My Services & Skills</h1>
+    </nav>
+  </header>
+
+  <main>
+    <div class="section">
+      <h2>Technologies I Use</h2>
+      <p>
+        These are the technologies I have worked with to build responsive and
+        functional websites:
+      </p>
+      <div class="skills">
+        <div class="skill">HTML5</div>
+        <div class="skill">CSS3</div>
+        <div class="skill">BootStrape</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">C++</div>
+        <div class="skill">C#</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Currently Learning</h2>
+      <p>
+        I'm expanding my skills to backend and full-stack development with
+        these modern technologies:
+      </p>
+      <div class="skills">
+        <div class="skill">MySQL</div>
+        <div class="skill">MongoDB</div>
+        <div class="skill">Node.js</div>
+        <div class="skill">React</div>
+        <!-- <div class="skill"></div>
+        <div class="skill">Next.js</div>
+        <div class="skill">TypeScript</div> -->
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Future Goals</h2>
+      <p>
+        I’m working toward mastering the <strong>MERN Stack</strong> (MongoDB,
+        Express, React, Node) and becoming a full-stack developer.
+      </p>
+      <div class="skills">
+        <div class="skill">MERN Stack</div>
+        <div class="skill">Full-Stack Projects</div>
+      </div>
+    </div>
+  </main>
+
+
+  <footer>
+       <a href="portfilo.html">← Back to Home</a>
+  </footer>
+</body>
+
+</html>
